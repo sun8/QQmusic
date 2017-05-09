@@ -1,0 +1,556 @@
+.box{
+	height:30px;
+	background-color: #2f2f2f;
+}
+.user{
+	width: 504px;
+	padding:0 10px 0 469px;
+	margin: 0 auto;
+}
+.user a,.user p{
+	float: left;
+	font:12px/30px "微软雅黑";
+	color: #b5b5b5;	
+}
+.user .enter{color: #8b8b8b;}
+.user span{
+	float: left;
+	width: 1px;
+	height: 12px;
+	background-color: #3d3d3d;
+	margin:9px;
+}
+.green{
+	background: url(images/green.png) no-repeat left;
+	padding-left: 21px;
+}
+.pay{
+	background: url(images/pay.png) no-repeat left;
+	padding-left: 21px;
+}
+/*---------------------------------------header---------------------------------------------------*/
+.box_header{
+	height: 113px;
+	border-bottom: 1px #dddddd solid;
+}
+.width983{
+	width: 983px;
+	margin: 0 auto;
+}
+.header{
+	padding-right: 16px;
+}
+.qq{
+	width: 240px;
+	height: 113px;
+	background: url(images/QQ.png) no-repeat left;
+	text-indent: -999px;
+}
+.click{
+	width: 413px;
+	margin-right: 85px;
+}
+.click_top{
+	height: 75px;
+	font:16px/112px "微软雅黑";
+}
+.click_top a{
+	height: 75px;
+	float: left;
+	color: #515151;
+	padding:0 18px 0;
+	}
+.click_top .music,.click_top a:hover{
+	background-color: #0dad51;
+	color: #dff4e8;
+	border-radius: 3px;
+}
+.click_bottom{
+	height: 38px;
+	font:15px/38px "微软雅黑";
+}
+.click_bottom a{
+	float: left;
+	color: #946e81;
+}
+.click_bottom span{
+	float: left;
+	width: 1px;
+	height: 11px;
+	background-color: #d7c5d7;
+	margin:15px 16px 0;
+}
+.click_bottom .page,.click_bottom a:hover{
+	color: #0dad6a;
+}
+.seek{
+	margin-top: 38px;
+	width: 229px;
+	height: 39px;
+	background-color: #f0f0f0;
+	border-radius: 3px;
+	position: relative;
+}
+.point{
+	width: 218px;
+	height: 29px;
+	border: 1px #c3c3c3 solid;
+	border-radius: 3px;
+	font:12px/29px "微软雅黑";
+	text-indent: 10px;
+	margin: 4px;
+	color: #c3c3c3;
+	background-color: #fff;
+}
+.out{
+	width: 13px;
+	height: 12px;
+	background: url(images/out.png);
+	position: absolute;
+	top:14px;
+	right: 15px;
+}
+/*--------------------------------------------content-----------------------------------------------*/
+.content{
+	height:2117px;
+}
+/*---------------------------------------content_left-------------------------------*/
+.content_left{
+	width: 703px;
+	height:2029px;
+	margin-right: 40px;
+	padding-bottom: 88px;
+}
+/*--------轮播图--------*/
+.carousel{
+	width: 700px;
+	height: 280px;
+	margin:20px 0 40px 0;
+}
+/*------------------------------------在线首发-----------------------------------------*/
+.online{
+	height: 318px;
+	margin-bottom: 38px;
+}
+.title{
+	margin-bottom: 18px;
+}
+.height30{
+	height: 30px;
+	border-left: 5px #ff0000 solid;
+	text-indent: -999px;}
+.online_title{
+	width: 120px;
+	background: url(images/online_title.png) no-repeat right;
+}
+.shu{
+	width: 5px;
+	height: 13px;
+	background: url(images/shu.png);
+	margin: 12px 4px 0 10px;
+}
+.online_more{
+	height: 30px;
+	font:14px/36px "微软雅黑";
+	color: #2a9d5b;
+}
+.change_left,.change_right{
+	width: 32px;
+	height: 31px;
+	background: url(images/jian.png);
+}
+.change_right{
+	background-position: right;
+}
+.con_top{
+	height: 130px;	
+}
+.con_top dl,.con_bottom dl{
+	margin-right: 12px;
+	position: relative;
+	float: left;
+}
+.con_top .last,.con_bottom .last{
+	margin-right:0;
+}
+.dd1,.wenzi{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.bg{
+	width: 130px;
+	height: 48px;
+	background-color: #000;
+	display:block;
+	vertical-align: top;
+	opacity:0.4;filter:alpha(opacity=40);
+}
+.p2{
+	height: 20px;
+	font:13px/19px "微软雅黑";
+	color: #fff;
+	padding-left: 5px;
+}
+.p1{
+	font:15px/28px "微软雅黑";
+	color: #11c651;
+	padding-left: 5px;
+}
+.con_bottom{
+	margin-top: 10px;	
+}
+/*------------------------------------MV首播-----------------------------------------*/
+.mv_title{
+	width: 102px;
+	background: url(images/mv1.png) no-repeat right;
+	border-color: #ff7800;
+}
+.mv .mv_top{margin-bottom: 14px;}
+.mv_top dl{
+	float: left;
+	width: 160px;
+	height: 169px;
+	margin-right: 20px;
+	position: relative;
+}
+.mv_top .mv_dlast{margin-right:0;}
+.mv_dd{
+	height: 79px;
+}
+.mv_dd p{
+	font:12px/23px "微软雅黑";
+	color: #8b8b8b;
+}
+.mv_dd span{
+	color: #0dad51;
+}
+.mv_dd_p{
+	float: right;
+}
+.mv_dd .mv_dd_p1{
+	color: #515151;
+}
+.today{
+	width: 32px;
+	height: 21px;
+	background-color: #ff6600;
+	position: absolute;
+	top:0;
+	right: 9px;
+	font:11px/21px "微软雅黑";
+	color: #fff;
+	text-align: center;
+}
+/*------------------------------------最新推荐-----------------------------------------*/
+.recommend{padding:10px 0 3px 0;}
+.recommend_left{
+	width: 352px;
+	height: 484px;
+	border-right: 1px #e5e5e5 solid;
+}
+.recommend_left .title{padding-right: 16px;}
+.recommend_left_title{
+	width: 121px;
+	background: url(images/recommend.png) no-repeat right;
+	border-color: #0dad51;
+}
+.recommend_left_bofang,.recommend_left_tianjia{
+	width: 30px;
+	height: 30px;
+	background: url(images/play.png);
+}
+.recommend_left_tianjia{background-position: right center;}
+.recommend_left_bofang{margin: 0 10px 0 8px;}
+.recommend_title a{
+	float: left;
+	font: 14px/30px "微软雅黑";
+	color: #0c8f44;
+}
+.recommend_title .huayu{color: #333333;}
+.recommend_title span{
+	float: left;
+	width: 1px;
+	height: 12px;
+	background-color: #d8d8d8;
+	margin: 10px 7px 0;
+}
+.recommend_dl a,.recommend_dl span{
+	font:14px/36px "微软雅黑";
+	color: #0c8f44;
+}
+.recommend_dl span{
+	margin-left:10px ;
+	color: #6a5151;
+}
+.recommend_right{
+	width: 350px;
+	height: 484px;
+}
+.recommend_right .title{margin-left: -1px;}
+.recommend_right .recommend_ul{padding-left:21px;}
+/*------------------------------------精选集-----------------------------------------*/
+.sift .mv_title{
+	width: 686px;
+	background: url(images/jingxuan.png) no-repeat 15px;
+	border-color: #f3508d;
+	margin-bottom: 18px;
+}
+.sift_p1{
+	font:13px/22px "微软雅黑";
+	color: #3e8f88;
+}
+.sift_p2{
+	font:12px/27px "微软雅黑";
+	color: #8b8b8b;
+}
+.sift_dl{
+	width: 270px;
+	margin-right: 15px;}
+.sift_div{width: 416px;}
+.sift_div dl{
+	float: left;
+	margin-right: 12px;
+}
+.sift_div .sift_margin0{margin-right: 0;}
+.sift dd{
+	height: 56px;
+	font: 12px/38px "微软雅黑";
+	color: #0c8f44;
+}
+/*-----------------------------------------------content_right-------------------------------------------*/
+.content_right{
+	width: 220px;
+	height:2117px;
+	padding-right:20px;
+}
+.foot{
+	height: 155px;
+	border-bottom: 1px #e4e4e4 solid;
+	margin-bottom: 20px;
+}
+.foot h4,.foot a{
+	width: 220px;
+	font-size: 0;
+}
+.foot h4{height:75px;
+background: url(images/find.png) no-repeat left 21px;}
+.foot a{
+	display: block;
+	vertical-align: top;
+	height: 80px;
+	background: url(images/user.png) no-repeat center top;
+}
+/*-----------------banner登录-----------*/
+.banner{
+	height: 101px;
+	margin-bottom: 25px;
+}
+.lunbo{
+	display: inline-block;
+	padding-left: 76px;
+	vertical-align: top;
+}
+.lunbo a{float: left;
+	width: 7px;
+	height: 7px;
+	background: url(images/lundian.png);
+	margin-right: 8px;
+}
+.lunbo .zhong{background-position: right;}
+/*-----------------巅峰榜-----------*/
+.dianfengbang{
+	height: 340px;
+	padding-bottom: 16px;
+	border-bottom: 1px #c6c6c6 dotted;
+}
+.dianfengbang .recommend_left_title{
+	width: 54px;
+	background: url(images/dianfengbang.png) no-repeat left center;
+}
+.dianfengbang .recommend_left_bofang{margin:0 10px 0 11px;}
+.dianfeng_p{margin-bottom: 18px;}
+.dianfeng_p a{
+	float: left;
+	font:12px/12px "微软雅黑";
+	color: #0c8f44;
+}
+.dianfeng_p .liu{color: #333333;}
+.dianfeng_p span{
+	float: left;
+	width: 1px;
+	height: 12px;
+	background-color: #d8d8d8;
+	margin: 1px 8px 0 7px;
+}
+.li1 .li_hover{display:none;}
+.hover_sp{
+	font: 23px "微软雅黑";
+	color: #ff5400;
+	margin-right: 10px;
+}
+.hover_p{margin-left: 11px;}
+.hover_p a{display: block;
+	height: 24px;
+	font: 23px/29px "微软雅黑";
+	margin-bottom: 10px;
+	color: #ff5400;
+}
+.hover_p span{display: block;
+	font: 13px/17px "微软雅黑";
+}
+.li1_shu{
+	font: 12px/23px "微软雅黑";
+	color: #b2b2b2;
+	margin-right: 27px;
+}
+.li1_a{
+	width: 178px;
+	font: 12px/23px "微软雅黑";
+	color: #0c8f44;
+}
+.li1_a .li1_a_sp{color: #515151;}
+.li1:hover .li_hover{display: block;}
+.li1:hover .li_none{display: none;}
+/*-------------一堆超链接榜单----------------*/
+.chaolianjie{
+	height: 72px;
+	padding: 13px 0 14px 0;
+	border-bottom: 1px #e4e4e4 solid;
+	margin-bottom: 27px;
+	word-spacing: 14px;
+}
+.chaolianjie a{
+	font:12px/23px "微软雅黑";
+	color: #6a5151;
+}	
+/*--------------------siger歌手--------------------*/
+.siger{
+	height:214px;
+	margin-bottom: 13px;
+	border-bottom: 1px #c6c6c6 dotted;}
+.siger_1{margin-bottom: 19px;}
+.siger_h{
+	width: 71px;
+	height: 17px;
+	font-size: 0;
+	background: url(images/siger.png) no-repeat right;
+}
+.siger .shu{margin-top:4px;}
+.siger .online_more{height:17px;line-height: 20px;}
+.siger dl{margin-right: 34px;}
+.siger .siger_dl{margin-right: 0;}
+.siger dd{
+	height: 39px;
+	font: 12px/30px "微软雅黑";
+	color: #0c8f44;
+}
+/*-------------------歌曲类型超链接---------------------------*/
+.ge_chao{
+	height: 96px;
+	border-bottom: 1px #e4e4e4 solid;
+	margin-bottom: 21px;
+	word-spacing: 20px;
+}
+.ge_chao a{
+	font:12px/23px "微软雅黑";
+	color: #6a5151;
+}
+/*-------------------------精彩活动------------------*/
+.intest{
+	height: 275px;
+	padding-bottom: 13px;
+	border-bottom: 1px #e4e4e4 solid;
+}
+.intest h5{
+	width: 220px;
+	height: 17px;
+	font-size: 0;
+	background: url(images/intest.png) no-repeat left center;
+	margin-bottom: 20px;
+}
+.intest dd{
+	height: 31px;
+	font: 12px/24px "微软雅黑";
+	color: #0c8f44;
+}
+/*--------------------------------------------footer-----------------------------------------------*/
+.box_footer{
+	height:260px;
+	background-color: #f7f7f7;
+}
+.footer{
+	width: 940px;
+	height: 223px;
+	margin: 0 auto;
+	padding: 37px 0 0 51px;
+}
+.foot_box{height: 103px;}
+.down{
+	width: 280px;
+	height: 103px;
+	word-spacing: 14px;
+	margin-right: 75px;
+}
+.down_li{
+	height:25px ;
+	font: 17px/17px "微软雅黑";
+	color: #757575;
+}
+.down a{
+	font: 12px/26px "微软雅黑";
+	color: #515151;	
+}
+.product{
+	width: 120px;
+	height: 103px;
+	margin-right: 84px;
+}
+.partner{
+	width: 374px;
+	margin-right: 0;
+}
+.foot_nav{
+	height: 72px;
+	margin-top: 45px;
+	padding-left: 180px;
+}
+.foot_nav p{
+	font: 13px/24px "微软雅黑";
+}
+.site{height: 24px;}
+.site a{
+	float: left;
+	color: #515151;
+}
+.site span{
+	float: left;
+	width: 1px;
+	height: 11px;
+	color: #af8baf;
+	margin: 7px 4px 0;
+	background-color: #af8baf;
+}
+.siteninfolegal span,.copyright span{color: #8b8b8b;}
+.siteninfolegal{margin-left:110px ;}
+.copyright{margin-left: 136px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
